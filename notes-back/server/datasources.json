@@ -12,5 +12,21 @@
     "name": "mongodb",
     "user": "newUser",
     "connector": "mongodb"
+  },
+  "Email": {
+    "name": "Email",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "SMTP",
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "auth": {
+          "user": "guerson9112@gmail.com",
+          "pass": "Tyrantdragon"
+        }
+      }
+    ]
   }
 }

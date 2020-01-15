@@ -24,7 +24,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "superuser": {
+      "type": "hasOne",
+      "model": "superuser",
+      "foreignKey": "rootUserId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
